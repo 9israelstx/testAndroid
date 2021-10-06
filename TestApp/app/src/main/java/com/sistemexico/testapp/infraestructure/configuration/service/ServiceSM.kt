@@ -1,0 +1,47 @@
+package com.sistemexico.schoolmanageralumntutor.infraestructure.configuration.service
+
+class ServiceSM {
+    companion object {
+
+        //EndPoint
+        const val LOGIN = "/security/user/login"
+        const val GET_CODE_RECOVERY_PASSWORD = "/security/passwordchangerequest/sendCode"
+        const val CHANGE_PASSWORD = "/security/passwordchangerequest/changePasswordWhithCode"
+        const val FIND_ALUMN_AS_TUTOR = "/alumn/tutor/findAlumnsAsTutor"
+        const val FIND_TUTOR_AS_ALUMN = "/alumn/tutor/findTutorsAsAlumn"
+        const val ADD_TUTOR_AS_ALUMN = "/alumn/tutor/addTutorAsAlumn"
+        const val ADD_TUTOR_AS_TUTOR = "/alumn/tutor/addTutorAsTutor"
+        const val REMOVE_TUTOR_RELATION_SHIP = "/alumn/tutor/removeRelationShip"
+        const val FIND_ALUMN = "/alumn/alumn/find"
+        const val ADD_FISCAL_DATA = "/alumn/alumn/addFiscalDataAlumn"
+        const val REMOVE_FISCAL_DATA = "/alumn/alumn/removeFiscalDataAlumn"
+        const val UPDATE_FISCAL_DATA = "/fiscal/fiscaldata/update"
+        const val UPDATE_ALUMN ="/alumn/alumn/update"
+        const val FIND_TUTOR = "/alumn/tutor/find"
+        const val UPDATE_TUTOR = "/alumn/tutor/update"
+        const val FIND_ACADEMIC_CHARGE_SCHEDULE = "/academic/academiccharge/findacademicchargeschedule"
+        const val FIND_QUALIFICATION = "/academic/academiccharge/findQualification"
+        const val FIND_QUALIFICATION_DETAIL = "/academic/academiccharge/findQualificationDetail"
+        const val FIND_TEACHERTEACHES = "/academic/teacherteaches/find"
+        const val FIND_CHECK_ALUMN = "/academic/check/findAlumnCheck"
+        const val CHECK_IN_ALUMN = "/academic/check/checkinalumn"
+        const val CHECK_OUT_ALUMN ="/academic/check/checkoutalumn"
+        const val FIND_SLA_TICKET ="/sla/supportticket/find"
+        const val FIND_MOBILE_TICKET ="/sla/supportticket/findmobile"
+        const val ADD_MOBILE_MESSAGE_TICKET ="/sla/message/addmessagefile"
+        const val FIND_MOBILE_MESSAGE_TICKET ="/sla/message/findmobile"
+        const val CREATE_SLA_TICKET ="/sla/supportticket/create"
+        const val FIND_SLA_STATUS_TICKET ="/sla/statussupportticket/1/50"
+        const val FIND_SLA_CATEGORY ="/sla/category/find"
+        const val FIND_PEDIGN_CONCEPTS ="/finance/paymentplanconceptalumn/findPendignConcepts"
+        const val PAYMENT_HISTORY = "/alumn/alumn/payments"
+        const val CREATE_INVOICE = "/invoice/invoice/create"
+        const val OPENPAY_PAYMENT_METHOD = "/sales/openpay/paymentmethod"
+        const val FIND_ALUMN_ASSISTANCE = "/alumn/consultassitance/find"
+        const val FIND_ALUMN_ASSISTANCE_DETAIL = "/alumn/assitancedetail/find"
+        const val VALIDATE_COUPON = "/finance/coupon/validate"
+        const val PAYCONCEPT_FINANCE = "/finance/payconcept/payconcept"
+        const val FIND_OPENPAY_CONFIG = "/sales/openpay/findconfig"
+        const val FIND_CONFIGURATION = "/configuration/configuration/find"
+    }
+}
